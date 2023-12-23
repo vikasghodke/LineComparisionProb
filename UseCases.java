@@ -23,6 +23,20 @@ public class UseCases {
 				double distance=Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
 				
 				System.out.println("distance="+distance);
+				
+				String str=" Hello BridgeLabz";
+				String str1="HELLO BRIDGELABZ";
+				
+				String str2="hello bridgelabz";
+				
+				String str3="Hello";
+				
+				String str4=" ";
+				
+				System.out.println(str.equals(str1));
+				System.out.println(str1.equals(str4));
+				System.out.println(str2.equals(str3));
+				System.out.println(str3.equals(str4));
 		
 		
 		
