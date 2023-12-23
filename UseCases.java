@@ -37,6 +37,10 @@ public class UseCases {
 				System.out.println(str1.equals(str4));
 				System.out.println(str2.equals(str3));
 				System.out.println(str3.equals(str4));
+				
+				String s1="Vikas";
+				String s2="vikas";
+				System.out.println(s1.compareTo(s2));
 		
 		
 		
